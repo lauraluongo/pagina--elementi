@@ -8,15 +8,15 @@ h1{
 }
 
 .consiglio{
-  color: black;
+  color: white;
   font-family: 'Baskerville Old Face';
   font-size:20px;
   text-align:center;
-  border: 1px solid white;
+  border: 1px solid #FFE0E6;
   line-height: 50px;
   padding: 50px;
   margin-left: auto;
   margin-right: auto;
   width:370px;
-  background-color: white;
+  background-color: #FF9FA9;
 }
