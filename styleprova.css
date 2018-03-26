@@ -6,3 +6,17 @@ h1{
    font-size:100px;
    line-height:250px;
 }
+
+.consiglio{
+  color: black;
+  font-family: 'Baskerville Old Face';
+  font-size:20px;
+  text-align:center;
+  border: 1px solid white;
+  height: 90px;
+  width: 370px;
+  margin-left: 525px;
+  line-height: 50px;
+  padding: 50px;
+  background-color: white
+}
