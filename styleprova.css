@@ -3,5 +3,6 @@ h1{
   font-family: 'Palace Script MT';
    src: url(Palace Script MT.eot);
    src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
-   font-size: 80px
+   font-size: 100px;
+   line-height: 250px;
 }
