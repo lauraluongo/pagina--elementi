@@ -1,6 +1,6 @@
 h1{
   text-align:center;
-  font-family: 'Dancing Script',cursive;
+  font-family: 'Palace Script MT';
    src: url(Palace Script MT.eot);
    src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
    font-size:100px;
@@ -20,14 +20,31 @@ h1{
   width:370px;
   background-color: #FF9FA9;
 }
+#curriculum {
+  display: inline;
+  width: 30%;
+  background-image: url('curriculum.jpg');
 
+}
+#contatti {
+  display: inline;
+  width: 30%;
+  background-image: url('contatti.jpg');
+}
 img{
   display: inline-block;
-  height:25vh;
-  width:460px;
-  height:440px;
   overflow:hidden;
   border: 1px solid #FFE0E6;
+  padding: 10px;
+}
+.img {
+  width: 30%;
+  display: inline;
+}
+.curriculum {
+  background-image: url('curriculum.jpg');
+}
+h2 {
   padding: 10px;
 }
 
