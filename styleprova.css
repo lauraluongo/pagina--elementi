@@ -31,15 +31,41 @@ img{
   padding: 10px;
 }
 
+h3{
+  padding: 100px;
+  display: inline;
+}
 #laura{
-  margin: 0px;
-  background-image: url('laura.JPG');
+background-image: url('laura.JPG');
+background-position: 50% 50% 50% 50%;
+background-repeat: no-repeat;
+background-size: 100%;
+position: relative;
+height: 25vh;
+text-align: 90%;
+margin-left: 10%;
+}
+
+#curr{
+  background-image: url('curriculum.jpg');
+  background-position: 60% 50% 90% 50%;
   background-repeat: no-repeat;
-  color: #FFFFFF;
-  font-size: 140%;
-  font-weight: normal;
-  line-height: 260px;
-  text-align: center;
-  width: 1000px;
-  height: 1000px;
+  background-size: 100%;
+  position: relative;
+  height: 25vh;
+  text-align: 40%;
+  position: relative 20%;
+  margin-left: 10%;
+}
+
+#rubrica{
+  background-image: url('contatti.jpg');
+  background-position: 60% 50% 90% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  height: 25vh;
+  text-align: 40%;
+  position: relative 20%;
+  margin-left: 10%;
 }
