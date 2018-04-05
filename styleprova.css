@@ -21,51 +21,19 @@ h1{
   background-color: #FF9FA9;
 }
 
-img{
-  display: inline-block;
-  height:25vh;
-  width:460px;
-  height:440px;
-  overflow:hidden;
-  border: 1px solid #FFE0E6;
-  padding: 10px;
-}
+div{
+ position: relative;
+ display: inline-block;
+ }
 
-h3{
-  padding: 100px;
-  display: inline;
-}
-#laura{
-background-image: url('laura.JPG');
-background-position: 50% 50% 50% 50%;
-background-repeat: no-repeat;
-background-size: 100%;
-position: relative;
-height: 25vh;
-text-align: 90%;
-margin-left: 10%;
-}
+ img {
+   position:absolute
+   height:25vh;
+   width:40vh;
+   }
 
-#curr{
-  background-image: url('curriculum.jpg');
-  background-position: 60% 50% 90% 50%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  height: 25vh;
-  text-align: 40%;
-  position: relative 20%;
-  margin-left: 10%;
-}
-
-#rubrica{
-  background-image: url('contatti.jpg');
-  background-position: 60% 50% 90% 50%;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  position: relative;
-  height: 25vh;
-  text-align: 40%;
-  position: relative 20%;
-  margin-left: 10%;
-}
+ a {
+ position:absolute;
+ bottom:2em;
+ left:45%;"
+ }
