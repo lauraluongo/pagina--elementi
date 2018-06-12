@@ -149,7 +149,7 @@ body {
 }
 
 .fb:hover {
-  font-size: 137%;
+  font-size: 138%;
   transition: 0.1s;
   margin-left: 31.4%;
 }
@@ -173,7 +173,7 @@ body {
 }
 
 .insta:hover {
-  font-size: 141%;
+  font-size: 142%;
   transition: 0.1s;
   margin-left: 47.5%;
 }
@@ -194,6 +194,12 @@ body {
   color: white;
   margin-top: -1.5%;
   margin-left: 61%;
+}
+
+.email:hover {
+  font-size: 142%;
+  transition: 0.1s;
+  margin-left: 60.9%;
 }
 
 
