@@ -232,3 +232,9 @@ h3 {
   margin-top: 0.1%;
   color: black;
 }
+
+#img1 {
+  position: absolute;
+  height: 55%;
+  width: 30%;
+}
