@@ -10,7 +10,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 94px;
+  height: 11%;
   display: block;
   width: 100%;
   background: #111;
@@ -24,7 +24,7 @@ body {
   font-family: 'Dancing Script',cursive;
   src: url(Palace Script MT.eot);
   src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
-  font-size: 50px;
+  font-size: 250%;
   color: white;
   float: left;
   margin-right: 0;
