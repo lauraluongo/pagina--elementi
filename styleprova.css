@@ -135,14 +135,14 @@ body {
   position: absolute;
   height: 133px;
   top: 56px;
-  left: 29.8%;
+  left: 29.7%;
 }
 
 .fb {
   font-family: 'Dancing Script',cursive;
   font-size: 20px;
   color: white;
-  margin-top: 65px;
+  margin-top: 50px;
   margin-left: 31.5%;
 }
 
@@ -165,7 +165,7 @@ body {
   position: absolute;
   font-size: 20px;
   color: white;
-  margin-top: -24.8px;
+  margin-top: -29.9px;
   margin-left: 47.3%;
 }
 
@@ -182,7 +182,7 @@ body {
   font-size: 20px;
   position: absolute;
   color: white;
-  top: 136px;
+  top: 130px;
   right: 28%;
 }
 
@@ -244,10 +244,9 @@ h3 {
 }
 
 .tendina {
-    top:980px;
-    left: 420px;
-    position: relative;
-    display: inline-block;
+ position: absolute;
+ top:980px;
+ left: 420px;
 }
 
 .nomi {
