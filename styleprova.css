@@ -126,8 +126,15 @@ body {
 
 .facebookfondo {
   position: absolute;
-  height: 130px;
-  top: 55px;
+  height: 131px;
+  top: 60px;
+  margin-left: 30%;
+}
+
+.facebookfondo:hover {
+  position: absolute;
+  height: 132px;
+  top: 56px;
   margin-left: 30%;
 }
 
@@ -135,47 +142,55 @@ body {
   font-family: 'Dancing Script',cursive;
   font-size: 20px;
   color: white;
-  margin-top: 60px;
+  margin-top: 65px;
   margin-left: 31.5%;
 }
 
 .istafondo {
   position: absolute;
   height: 36px;
-  top: 85px;
+  top: 92px;
+  margin-left: 49%;
+}
+
+.istafondo:hover {
+  position: absolute;
+  height: 39px;
+  top: 88px;
   margin-left: 49%;
 }
 
 .insta {
   font-family: 'Dancing Script',cursive;
+  position: absolute;
   font-size: 20px;
   color: white;
-  margin-top: 1px;
-  margin-left: 47.6%;
+  margin-top: -24.8px;
+  margin-left: 47.3%;
 }
 
 .mailfondo {
   position: absolute;
-  height: 130px;
-  top: 56px;
-  left: 60%;
+  height: 132px;
+  top: 65px;
+  margin-left:60%;
 }
 
 
 .email {
   font-family: 'Dancing Script',cursive;
   font-size: 20px;
+  position: absolute;
   color: white;
-  margin-top: -1.5%;
-  margin-left: 61%;
+  top: 137px;
+  margin-left: 59.5%;
 }
 
 
 h1 {
   font-family: 'Dancing Script',cursive;
-  font-size: 700%;
+  font-size: 400px;
   text-align: center;
-  margin-top: -30%;
   color: black;
 }
 
