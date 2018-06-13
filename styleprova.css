@@ -231,3 +231,52 @@ h3 {
   height: 400px;
   width: 100%;
 }
+
+
+.bottstoria {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family:'Dancing Script',cursive;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.tendina {
+    top:700px;
+    position: relative;
+    display: inline-block;
+}
+
+.nomi {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nomi a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.tendina a:hover {background-color: grey;}
+
+.tendina:hover .nomi {
+    display: block;
+}
+
+
+
+
+.contenitore {
+  position:absolute;
+   width: 250px;
+   height: 350px;
+   top:600px;
+   left:-300px;
+}
