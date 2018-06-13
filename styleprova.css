@@ -280,3 +280,14 @@ h3 {
    top:550px;
    left:-300px;
 }
+
+
+#paragrafo1{
+  font-family: 'Libre Baskerville';
+  font-size: 21px;
+  position: absolute;
+  top: 1180px;
+  text-align: center;
+  left: 260px;
+  right: 260px;
+}
