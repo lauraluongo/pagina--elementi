@@ -232,6 +232,14 @@ h3 {
   width: 100%;
 }
 
+#scorrigiu {
+  position: absolute;
+  height: 150px;
+  top:590px;
+  transform: translate(-50%,0%);
+  left: 50%;
+}
+
 
 .bottstoria {
     background-color: black;
