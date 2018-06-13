@@ -189,7 +189,8 @@ body {
 
 h1 {
   font-family: 'Dancing Script',cursive;
-  font-size: 400px;
+  font-size: 100px;
+  margin-top: -380px;
   text-align: center;
   color: black;
 }
@@ -197,9 +198,8 @@ h1 {
 h2 {
   font-family: 'Libre Baskerville';
   font-style: italic;
-  font-size: 150%;
+  font-size: 25px;
   text-align: center;
-  margin-top: -1.5%;
   color: black;
 }
 
@@ -213,7 +213,6 @@ h3 {
 }
 
 .img3 {
-  margin-top: 3%;
-  height: 550px;
-  width: 100%;
+  margin-top: 45px;
+  height: 563px;
 }
