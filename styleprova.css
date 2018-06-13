@@ -104,7 +104,7 @@ body {
   background: #111;
   height: 200px;
   width: 100%;
-  top: 1500px;
+  top: 2500px;
   left: 0%;
   bottom: 0%;
   border: 0%;
@@ -189,7 +189,7 @@ body {
 
 h1 {
   position: absolute;
-  font-family: 'Dancing Script',cursive;
+  font-family: 'Libre Baskerville';
   font-size: 100px;
   top: 20px;
   transform: translate(-50%,0%);
@@ -202,7 +202,7 @@ h2 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 230px;
+  top: 400px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
@@ -214,7 +214,7 @@ h3 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 270px;
+  top: 450px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
@@ -228,7 +228,7 @@ h3 {
   position: absolute;
   top: 80px;
   left: 0%;
-  height: 400px;
+  height: 600px;
   width: 100%;
 }
 
@@ -245,7 +245,7 @@ h3 {
 
 .tendina {
  position: absolute;
- top:930px;
+ top:1135px;
  left: 420px;
 }
 
@@ -277,7 +277,7 @@ h3 {
   position:absolute;
    width: 250px;
    height: 350px;
-   top:550px;
+   top:750px;
    left:-300px;
 }
 
@@ -286,7 +286,7 @@ h3 {
   font-family: 'Libre Baskerville';
   font-size: 21px;
   position: absolute;
-  top: 1180px;
+  top: 1380px;
   text-align: center;
   left: 260px;
   right: 260px;
