@@ -189,7 +189,7 @@ body {
 
 h1 {
   position: absolute;
-  font-family:'Dancing Script',cursive;
+  font-family: 'Dancing Script',cursive;
   font-size: 100px;
   top: 20px;
   transform: translate(-50%,0%);
@@ -214,7 +214,7 @@ h3 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 260px;
+  top: 270px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
