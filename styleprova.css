@@ -105,8 +105,7 @@ body {
   height: 200px;
   width: 100%;
   left: 0%;
-  margin-top: 1100px;
-  margin-bottom: 0%;
+  bottom: 0%;
   border: 0%;
 
 }
@@ -188,31 +187,46 @@ body {
 
 
 h1 {
+  position: absolute;
   font-family: 'Dancing Script',cursive;
   font-size: 100px;
-  margin-top: -380px;
+  top: 20px;
+  transform: translate(-50%,0%);
+  left: 50%;
   text-align: center;
   color: black;
 }
 
 h2 {
+  position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
+  top: 230px;
+  transform: translate(-50%,0%);
+  left: 50%;
   font-size: 25px;
   text-align: center;
   color: black;
 }
 
 h3 {
+  position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  font-size: 150%;
+  top: 260px;
+  transform: translate(-50%,0%);
+  left: 50%;
+  font-size: 25px;
   text-align: center;
-  margin-top: 0.1%;
   color: black;
 }
 
 .img3 {
-  margin-top: 45px;
-  height: 563px;
+  background-image: url(img/imm2.jpg);
+  background-position: center center;
+  position: absolute;
+  top: 50px;
+  left: 0%;
+  height: 400px;
+  width: 100%;
 }
