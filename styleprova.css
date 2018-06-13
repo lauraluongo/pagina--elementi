@@ -104,8 +104,9 @@ body {
   background: #111;
   height: 200px;
   width: 100%;
+  top: 1500px;
   left: 0%;
-  bottom: -1000px;
+  bottom: 0%;
   border: 0%;
 
 }
