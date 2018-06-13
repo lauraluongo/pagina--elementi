@@ -245,19 +245,21 @@ h3 {
 
 .tendina {
  position: absolute;
- top:980px;
+ top:930px;
  left: 420px;
 }
 
 .nomi {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #D8D8D8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .nomi a {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -269,8 +271,6 @@ h3 {
 .tendina:hover .nomi {
     display: block;
 }
-
-
 
 
 .contenitore {
