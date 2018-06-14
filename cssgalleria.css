@@ -133,6 +133,21 @@ a{
    left: 50%;
  }
 
+ .ani{
+   position: absolute;
+   background-color: white;
+   opacity: 0.5;
+   width: 311px;
+   height: 250px;
+ }
+
+ .ani:hover {
+   background-color: none;
+   opacity: 0;
+   transition: 0.5s;
+
+ }
+
  .c1{
    position: absolute;
    left:0%;
