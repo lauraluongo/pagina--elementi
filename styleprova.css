@@ -249,17 +249,17 @@ h3 {
 }
 
 .tendina {
-  display: block;
+ display: block;
  position: absolute;
- top:1150px;
- left: 350px;
+ top:1300px;
+ left: 550px;
 }
 
 .nomi {
     display: none;
     position: absolute;
     background-color: #D8D8D8;
-    min-width: 160px;
+    width: 350px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -267,15 +267,15 @@ h3 {
     font-family: 'Libre Baskerville';
     font-style: italic;
     color: black;
-    padding: 12px 16px;
+    padding: 12px 56px;
     text-decoration: none;
-    display: block;
+    display: inline-block;
 }
 
 .tendina a:hover {background-color: grey;}
 
 .tendina:hover .nomi {
-    display:inline;
+    display: block;
 }
 
 /* Slideshow container */
@@ -284,8 +284,7 @@ h3 {
   position: absolute;
   margin: auto;
   top:870px;
-  transform: translate(-50%,0%);
-  left: 50%;
+  left: 20%;
 }
 
 
