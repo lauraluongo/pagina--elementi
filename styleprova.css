@@ -112,7 +112,7 @@ color: white;
   background: #111;
   height: 200px;
   width: 100%;
-  top: 3000px;
+  top: 4500px;
   left: 0%;
   bottom: 0%;
   border: 0%;
@@ -421,6 +421,40 @@ h3 {
   font-family: 'Libre Baskerville';
   position: absolute;
   top: 2095px;
+  left: 20%;
+  right: 20%;
+  font-size: 20px;
+}
+
+#vita3 {
+  position: absolute;
+  top: 2420px;
+  left: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitarudolf {
+  font-family: 'Libre Baskerville';
+  position: absolute;
+  top: 2515px;
+  left: 20%;
+  right: 20%;
+  font-size: 20px;
+}
+
+#vita4 {
+  position: absolute;
+  top: 2980px;
+  right: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitaroberto {
+  font-family: 'Libre Baskerville';
+  position: absolute;
+  top: 3075px;
   left: 20%;
   right: 20%;
   font-size: 20px;
