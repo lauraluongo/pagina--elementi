@@ -238,11 +238,46 @@ h3 {
 }
 
 
+#contenitorefotostoria {
+  position: absolute;
+  width: 459px;
+  height: 131px;
+  top:870px;
+  left: 47%;
+}
+
+.r1 {
+  position: absolute;
+  top:0%;
+}
+
+.c1{
+  position: absolute;
+  left:0%;
+}
+
+.c2{
+  position: absolute;
+  left:117px;
+}
+
+.c3 {
+  position: absolute;
+  left: 234px;
+}
+
+.c4 {
+  position: absolute;
+  left: 351px;
+}
+
 .bottstoria {
     background-color: black;
     color: white;
     padding: 15px;
+    padding-right: 275px;
     font-family:'Dancing Script',cursive;
+    left:10px;
     font-size: 25px;
     border: none;
     cursor: pointer;
@@ -251,15 +286,15 @@ h3 {
 .tendina {
  display: block;
  position: absolute;
- top:1300px;
- left: 550px;
+ top:1010px;
+ left: 47%;
 }
 
 .nomi {
     display: none;
     position: absolute;
     background-color: #D8D8D8;
-    width: 350px;
+    width: 460px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
@@ -342,12 +377,24 @@ h3 {
   font-family: 'Libre Baskerville';
   font-size: 21px;
   position: absolute;
-  top: 1380px;
+  top: 1390px;
   text-align: center;
   left: 260px;
   right: 260px;
 }
 
+#lineavite {
+  position: absolute;
+  top: 1590px;
+  width: 50%;
+  transform: translate(-50%,0%);
+  left: 50%;
+  border-top: 1px solid black;
+}
+
 #vita1 {
+  position: absolute;
+  top: 1650px;
+  left: 20%;
 
 }
