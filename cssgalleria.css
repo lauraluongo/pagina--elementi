@@ -122,7 +122,7 @@ a{
 
  #divenorme {
    position: absolute;
-   width: 780px;
+   width: 957px;
    height: 1294px;
    border-top: 1px solid black;
    border-bottom: 1px solid black;
@@ -131,6 +131,26 @@ a{
    top: 340px;
    transform: translate(-50%,0%);
    left: 50%;
+ }
+
+ .c1{
+   position: absolute;
+   left:0%;
+ }
+
+ .c2{
+   position: absolute;
+   left:323px;
+ }
+
+ .c3{
+   position: absolute;
+   left:646px;
+ }
+
+ .r1{
+   position: absolute;
+   top:0%;
  }
 
 
