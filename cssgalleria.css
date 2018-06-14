@@ -124,10 +124,6 @@ a{
    position: absolute;
    width: 957px;
    height: 1816px;
-   border-top: 1px solid black;
-   border-bottom: 1px solid black;
-   border-left: 1px solid black;
-   border-right: 1px solid black;
    top: 340px;
    transform: translate(-50%,0%);
    left: 50%;
