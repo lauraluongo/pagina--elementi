@@ -187,7 +187,7 @@ body {
 }
 
 
-#h1 {
+ #h1 {
   position: absolute;
   font-family: 'Dancing Script',cursive;
   font-size: 100px;
@@ -279,13 +279,54 @@ h3 {
     display:inline;
 }
 
-
 .contenitore {
   position:absolute;
    width: 250px;
    height: 350px;
    top:750px;
-   left:-300px;
+   left:350px;
+}
+
+.w3-button:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(-0%,-50%);
+}
+
+.w3-display-right{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+}
+
+
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+#bottonesinistra{
+  position: absolute;
+  left:80px;
+}
+
+#bottonedestra{
+  position: absolute;
+  left:160px;
 }
 
 

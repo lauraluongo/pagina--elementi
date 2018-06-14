@@ -1,0 +1,208 @@
+div{
+  display: block;
+}
+
+body {
+  background-color: white;
+}
+
+.barrasup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  display: block;
+  width: 100%;
+  background: #111;
+  border-radius: 0;
+  border: 0;
+  z-index: 5000;
+  margin: 0;
+}
+
+.home {
+  font-family: 'Dancing Script',cursive;
+  src: url(Palace Script MT.eot);
+  src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
+  font-size: 250%;
+  color: white;
+  float: left;
+  margin-right: 0;
+  margin-left: 15%;
+  margin-top:1%;
+}
+
+.contattaci {
+  position:fixed;
+  font-family: 'Dancing Script',cursive;
+  src: url(Palace Script MT.eot);
+  src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
+  color: white;
+  text-align:center;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 72.5%;
+}
+
+.facebook {
+  height: 28px;
+  position: absolute;
+  margin-top: 27px;
+  margin-left: 53.7%;
+}
+
+.facebook:hover {
+  margin-top: 22.5px;
+  margin-left: 53.7%;
+  height: 29px;
+  transition: 0.1s;
+}
+
+.instagram {
+  height: 30px;
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 56.5%;
+}
+
+.instagram:hover {
+  height: 31px;
+  margin-top: 21.5px;
+  margin-left: 56.5%;
+  transition: 0.1s;
+}
+
+.mail {
+  height: 30.5px;
+  position: absolute;
+  margin-top: 26.5px;
+  margin-left: 59.4%;
+}
+
+.mail:hover {
+  height: 31px;
+  margin-top: 21px;
+  margin-left: 59.4%;
+  transition: 0.1s;
+}
+
+
+
+
+
+
+.menugallery {
+  position: absolute;
+  top:500px;
+  transform: translate(-50%,0%);
+  left: 50%;
+  height: 50px;
+  padding: 12px 20px 10px 20px;
+  background-color: #ebebeb;
+  border-top: 1px solid #C1B8A6;
+  border-bottom: 1px solid #C1B8A6;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barrainf {
+  position: absolute;
+  background: #111;
+  height: 200px;
+  width: 100%;
+  top: 2500px;
+  left: 0%;
+  bottom: 0%;
+  border: 0%;
+
+}
+
+#immaginifondo {
+  top:10px;
+  left: 60%;
+}
+
+.finecontatti {
+  font-family: 'Dancing Script',cursive;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.facebookfondo {
+  position: absolute;
+  height: 131px;
+  top: 60px;
+  left: 29.8%;
+}
+
+.facebookfondo:hover {
+  position: absolute;
+  height: 135px;
+  top: 56px;
+  left: 29.7%;
+}
+
+.fb {
+  font-family: 'Dancing Script',cursive;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 31.5%;
+}
+
+.istafondo {
+  position: absolute;
+  height: 36px;
+  top: 92px;
+  margin-left: 48.8%;
+}
+
+.istafondo:hover {
+  position: absolute;
+  height: 39px;
+  top: 88px;
+  margin-left: 48.7%;
+}
+
+.insta {
+  font-family: 'Dancing Script',cursive;
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  margin-top: -29.9px;
+  margin-left: 47.3%;
+}
+
+.mailfondo {
+  position: absolute;
+  height: 132px;
+  top: 63px;
+  right: 32%;
+}
+
+
+.email {
+  font-family: 'Dancing Script',cursive;
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  top: 130px;
+  right: 28%;
+}
