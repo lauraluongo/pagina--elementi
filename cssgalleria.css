@@ -112,13 +112,15 @@ a{
   border-bottom: 1px solid black;
   margin-bottom: 20px;
 }
+
  #all {
    position: absolute;
    font-family:'Dancing Script';
+   transform: translate(-50%,0%);
+   left: 50%;
    top:-15px;
    text-align: center;
    font-size: 30px;
-   left: 20px;
  }
 
 
