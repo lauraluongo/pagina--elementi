@@ -187,14 +187,13 @@ body {
 }
 
 
-h1 {
+#h1 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-size: 100px;
   top: 20px;
   transform: translate(-50%,0%);
   left: 50%;
-  text-align: center;
   color: black;
 }
 
@@ -234,8 +233,8 @@ h3 {
 
 #scorrigiu {
   position: absolute;
-  height: 150px;
-  top:590px;
+  height: 110px;
+  top:620px;
   transform: translate(-50%,0%);
   left: 50%;
 }
