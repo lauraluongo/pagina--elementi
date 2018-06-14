@@ -105,8 +105,8 @@ a{
   align:center;
   transform: translate(-50%,0%);
   left: 50%;
-  height: 50px;
-  width: 1000px;
+  height: 60px;
+  width: 957px;
   background-color: #D8D8D8;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -114,7 +114,10 @@ a{
 }
  #all {
    position: absolute;
-   font-family:'Libre Baskerville';
+   font-family:'Dancing Script';
+   top:-15px;
+   text-align: center;
+   font-size: 30px;
    left: 20px;
  }
 
