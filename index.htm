@@ -54,17 +54,57 @@
 </div>
 
 SLIDESHOW:
-<div id="contenitoregrande">
-<div class="w3-content w3-display-container contenitore">
-  <img class="mySlides" src="img/martha.jpg">
-  <img class="mySlides" src="img/carla.jpg">
-  <img class="mySlides" src="img/rudolf.jpg">
-  <img class="mySlides" src="img/roberto.jpg">
+<div class="slideshow-container">
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+<div class="mySlides fade">
+  <img src="img/martha.jpg" style="width:100%">
 </div>
+
+<div class="mySlides fade">
+  <img src="img/carla.jpg" style="width:100%">
 </div>
+
+<div class="mySlides fade">
+  <img src="img/rudolf.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="img/roberto.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+}
+
+</script>
 
 
 <p id="paragrafo1"> Martha Graham, Carla Fracci, Rudolf  Nureyev e Roberto Bolle sono quattro colossi della danza.
