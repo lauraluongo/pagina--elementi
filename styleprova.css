@@ -112,7 +112,7 @@ color: white;
   background: #111;
   height: 200px;
   width: 100%;
-  top: 2500px;
+  top: 3000px;
   left: 0%;
   bottom: 0%;
   border: 0%;
@@ -394,7 +394,34 @@ h3 {
 
 #vita1 {
   position: absolute;
-  top: 1650px;
+  top: 1700px;
   left: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
 
+#vitamartha {
+  font-family: 'Libre Baskerville';
+  position: absolute;
+  top: 1795px;
+  left: 20%;
+  right: 20%;
+  font-size: 20px;
+}
+
+#vita2 {
+  position: absolute;
+  top: 2000px;
+  right: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitacarla {
+  font-family: 'Libre Baskerville';
+  position: absolute;
+  top: 2095px;
+  left: 20%;
+  right: 20%;
+  font-size: 20px;
 }
