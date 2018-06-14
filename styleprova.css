@@ -195,21 +195,11 @@ color: white;
 }
 
 
- #h1 {
-  position: absolute;
-  font-family: 'Dancing Script',cursive;
-  font-size: 125px;
-  top: 130px;
-  transform: translate(-50%,0%);
-  left: 50%;
-  color: black;
-}
-
 h2 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 320px;
+  top: 350px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
@@ -221,7 +211,7 @@ h3 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 360px;
+  top: 390px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
