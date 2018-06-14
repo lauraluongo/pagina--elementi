@@ -6,6 +6,10 @@ body {
   background-color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 .barrasup {
   position: fixed;
   top: 0;
@@ -343,4 +347,8 @@ h3 {
   text-align: center;
   left: 260px;
   right: 260px;
+}
+
+#vita1 {
+
 }

@@ -7,6 +7,10 @@ body {
   background-color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 .barrasup {
   position: fixed;
   top: 0;
@@ -95,13 +99,12 @@ body {
 
 
 
-
-
 .menugallery {
   position: absolute;
-  top:20%;
+  top:30%;
   align:center;
-  left: 250px;
+  transform: translate(-50%,0%);
+  left: 50%;
   height: 50px;
   width: 1000px;
   background-color: #D8D8D8;
@@ -117,7 +120,18 @@ body {
 
 
 
-
+ #divenorme {
+   position: absolute;
+   width: 780px;
+   height: 1294px;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   top: 340px;
+   transform: translate(-50%,0%);
+   left: 50%;
+ }
 
 
 
