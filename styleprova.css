@@ -190,8 +190,8 @@ body {
  #h1 {
   position: absolute;
   font-family: 'Dancing Script',cursive;
-  font-size: 100px;
-  top: 20px;
+  font-size: 125px;
+  top: 130px;
   transform: translate(-50%,0%);
   left: 50%;
   color: black;
@@ -201,7 +201,7 @@ h2 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 400px;
+  top: 320px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
@@ -213,7 +213,7 @@ h3 {
   position: absolute;
   font-family: 'Libre Baskerville';
   font-style: italic;
-  top: 450px;
+  top: 360px;
   transform: translate(-50%,0%);
   left: 50%;
   font-size: 25px;
@@ -251,9 +251,10 @@ h3 {
 }
 
 .tendina {
+  display: block;
  position: absolute;
- top:1135px;
- left: 25%;
+ top:1150px;
+ left: 26%;
 }
 
 .nomi {
@@ -283,7 +284,7 @@ h3 {
   position:absolute;
    width: 250px;
    height: 350px;
-   top:750px;
+   top:790px;
    left:350px;
 }
 
