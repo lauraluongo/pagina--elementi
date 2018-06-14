@@ -286,6 +286,14 @@ h3 {
    left:350px;
 }
 
+.contenitore2 {
+   position:absolute;
+   width: 250px;
+   height: 350px;
+   top:790px;
+   left:650px;
+}
+
 .w3-button:hover {
     color: #000 !important;
     background-color: #ccc !important;
@@ -315,17 +323,6 @@ h3 {
     text-align: center;
     cursor: pointer;
     white-space: nowrap;
-}
-
-
-#bottonesinistra{
-  position: absolute;
-  left:80px;
-}
-
-#bottonedestra{
-  position: absolute;
-  left:160px;
 }
 
 
