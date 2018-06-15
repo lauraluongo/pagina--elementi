@@ -112,7 +112,7 @@ color: white;
   background: #111;
   height: 200px;
   width: 100%;
-  top: 4500px;
+  top: 4200px;
   left: 0%;
   bottom: 0%;
   border: 0%;
@@ -401,12 +401,13 @@ h3 {
 }
 
 #vitamarta {
+  font-family: 'Libre Baskerville';
   position: absolute;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  top:1790px;
+  top:1815px;
   height: 40%;
   width: 920px;
   right: 295px;
