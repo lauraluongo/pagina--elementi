@@ -400,13 +400,19 @@ h3 {
   font-size: 40px;
 }
 
-#vitamartha {
-  font-family: 'Libre Baskerville';
+#vitamarta {
   position: absolute;
-  top: 1795px;
-  left: 20%;
-  right: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  top:1790px;
+  height: 40%;
+  width: 920px;
+  right: 295px;
   font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
 }
 
 #vita2 {
@@ -417,13 +423,20 @@ h3 {
   font-size: 40px;
 }
 
-#vitacarla {
-  font-family: 'Libre Baskerville';
+.fracci {
   position: absolute;
-  top: 2095px;
-  left: 20%;
-  right: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  right: 295px;
+  top:2095px;
+  height: 40%;
+  width: 920px;
   font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
 }
 
 #vita3 {
@@ -435,27 +448,41 @@ h3 {
 }
 
 #vitarudolf {
-  font-family: 'Libre Baskerville';
   position: absolute;
-  top: 2515px;
-  left: 20%;
-  right: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  right: 295px;
+  top:2515px;
+  height: 40%;
+  width: 920px;
   font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
 }
 
 #vita4 {
   position: absolute;
-  top: 2980px;
+  top: 3060px;
   right: 20%;
   font-family: 'Dancing Script',cursive;
   font-size: 40px;
 }
 
 #vitaroberto {
-  font-family: 'Libre Baskerville';
   position: absolute;
-  top: 3075px;
-  left: 20%;
-  right: 20%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  right: 295px;
+  top:3155px;
+  height: 40%;
+  width: 920px;
   font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
 }
