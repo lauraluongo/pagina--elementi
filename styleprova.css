@@ -315,11 +315,11 @@ h3 {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 350px;
+  width: 300px;
   position: absolute;
   margin: auto;
   top:870px;
-  left: 20%;
+  left: 22%;
 }
 
 
@@ -377,7 +377,7 @@ h3 {
   font-family: 'Libre Baskerville';
   font-size: 21px;
   position: absolute;
-  top: 1390px;
+  top: 1325px;
   text-align: center;
   left: 260px;
   right: 260px;
