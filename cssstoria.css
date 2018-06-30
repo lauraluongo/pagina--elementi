@@ -1,4 +1,6 @@
-
+div{
+  display: block;
+}
 
 body {
   background-color: white;
@@ -47,7 +49,7 @@ a{
   float: left;
   position: absolute;
   margin-top: 25px;
-  margin-left: 65%;
+  margin-left: 66%;
 }
 
 .linkgalleria {
@@ -196,24 +198,26 @@ color: white;
   right: 28%;
 }
 
-
+.menustoria {
+  position: absolute;
+  top:25%;
+  align:center;
+  transform: translate(-50%,0%);
+  left: 50%;
+  height: 60px;
+  width: 957px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
 
  #all {
    position: absolute;
    font-family:'Dancing Script';
    transform: translate(-50%,0%);
    left: 50%;
-   top: 65px;
+   top: -120px;
    text-align: center;
    font-size: 70px;
- }
- .lineastoria {
-   position: absolute;
-   top: 240px;
-   width: 20%;
-   transform: translate(-50%,0%);
-   left: 50%;
-   border-top: 1px solid black;
  }
 
 
@@ -221,7 +225,7 @@ color: white;
   position: absolute;
   width: 459px;
   height: 131px;
-  top:1140px;
+  top:155%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -266,7 +270,7 @@ color: white;
 .tendina {
  display: block;
  position: absolute;
- top:1250px;
+ top:175%;
  left: 50%;
  transform: translate(-50%,-50%);
 }
@@ -299,7 +303,7 @@ color: white;
   width: 300px;
   position: absolute;
   margin: auto;
-  top:500px;
+  top:70%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -359,7 +363,7 @@ color: white;
   font-family: 'Libre Baskerville';
   font-size: 21px;
   position: absolute;
-  top: 760px;
+  top: 105%;
   text-align: center;
   left: 260px;
   right: 260px;
@@ -367,7 +371,7 @@ color: white;
 
 #lineavite {
   position: absolute;
-  top: 980px;
+  top: 134%;
   width: 50%;
   transform: translate(-50%,0%);
   left: 50%;
