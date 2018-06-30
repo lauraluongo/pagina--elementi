@@ -32,8 +32,12 @@ a{
   color: white;
   float: left;
   margin-right: 0;
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top:1%;
+}
+
+.linkhome{
+  color: white;
 }
 
 .galleria {
@@ -45,7 +49,7 @@ a{
   float: left;
   position: absolute;
   margin-top: 25px;
-  margin-left: 69.7%;
+  margin-left: 66%;
 }
 
 .linkgalleria {
@@ -62,35 +66,19 @@ color: white;
   font-size: 25px;
   position: absolute;
   margin-top: 25px;
-  margin-left: 76%;
-}
-
-.storia{
-  position: fixed;
-  font-family: 'Dancing Script',cursive;
-  color: white;
-  text-align:center;
-  font-size: 25px;
-  float: left;
-  position: absolute;
-  margin-top: 25px;
-  margin-left: 64%;
-}
-
-.linkstoria{
-  color: white;
+  margin-left: 72.5%;
 }
 
 .facebook {
   height: 28px;
   position: absolute;
   margin-top: 27px;
-  margin-left: 62%;
+  margin-left: 53.7%;
 }
 
 .facebook:hover {
   margin-top: 22.5px;
-  margin-left: 62%;
+  margin-left: 53.7%;
   height: 29px;
   transition: 0.1s;
 }
@@ -99,13 +87,13 @@ color: white;
   height: 30px;
   position: absolute;
   margin-top: 26px;
-  margin-left: 64.5%;
+  margin-left: 56.5%;
 }
 
 .instagram:hover {
   height: 31px;
   margin-top: 21.5px;
-  margin-left: 64.5%;
+  margin-left: 56.5%;
   transition: 0.1s;
 }
 
@@ -113,13 +101,13 @@ color: white;
   height: 30.5px;
   position: absolute;
   margin-top: 26.5px;
-  margin-left: 67%;
+  margin-left: 59.4%;
 }
 
 .mail:hover {
   height: 31px;
   margin-top: 21px;
-  margin-left: 67%;
+  margin-left: 59.4%;
   transition: 0.1s;
 }
 
@@ -128,7 +116,7 @@ color: white;
   background: #111;
   height: 200px;
   width: 100%;
-  top: 3000px;
+  top: 3600px;
   left: 0%;
   bottom: 0%;
   border: 0%;
@@ -210,55 +198,112 @@ color: white;
   right: 28%;
 }
 
-
-h2 {
+.menustoria {
   position: absolute;
-  font-family: 'Libre Baskerville';
-  font-style: italic;
-  top: 350px;
+  top:25%;
+  align:center;
   transform: translate(-50%,0%);
   left: 50%;
-  font-size: 25px;
-  text-align: center;
-  color: black;
+  height: 60px;
+  width: 957px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
 }
 
-h3 {
+ #all {
+   position: absolute;
+   font-family:'Dancing Script';
+   transform: translate(-50%,0%);
+   left: 50%;
+   top: -120px;
+   text-align: center;
+   font-size: 70px;
+ }
+
+
+#contenitorefotostoria {
   position: absolute;
-  font-family: 'Libre Baskerville';
-  font-style: italic;
-  top: 390px;
-  transform: translate(-50%,0%);
+  width: 459px;
+  height: 131px;
+  top:155%;
   left: 50%;
-  font-size: 25px;
-  text-align: center;
-  color: black;
+  transform: translate(-50%,-50%);
 }
 
-.img3 {
-  background-image: url(img/imm2.jpg);
-  background-position: center center;
+.r1 {
   position: absolute;
-  top: 80px;
-  left: 0%;
-  height: 600px;
-  width: 100%;
+  top:0%;
 }
 
-#scorrigiu {
+.c1{
   position: absolute;
-  height: 110px;
-  top:620px;
-  transform: translate(-50%,0%);
-  left: 50%;
+  left:0%;
+}
+
+.c2{
+  position: absolute;
+  left:117px;
+}
+
+.c3 {
+  position: absolute;
+  left: 234px;
+}
+
+.c4 {
+  position: absolute;
+  left: 351px;
+}
+
+.bottstoria {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    padding-right: 275px;
+    font-family:'Dancing Script',cursive;
+    left:10px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.tendina {
+ display: block;
+ position: absolute;
+ top:175%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+}
+
+.nomi {
+    display: none;
+    position: absolute;
+    background-color: #D8D8D8;
+    width: 460px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.nomi a {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    color: black;
+    padding: 12px 56px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.tendina a:hover {background-color: grey;}
+
+.tendina:hover .nomi {
+    display: block;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  width: 600px;
+  width: 300px;
   position: absolute;
   margin: auto;
-  top:980px;
+  top:70%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -313,101 +358,122 @@ h3 {
   .prev, .next,.text {font-size: 11px}
 }
 
-#linea1{
-  position: absolute;
-  top: 1205px;
-  width: 20%;
-  transform: translate(-50%,0%);
-  left: 50%;
-  border-top: 1px solid black;
-}
 
 #paragrafo1{
   font-family: 'Libre Baskerville';
   font-size: 21px;
-  line-height: 30px;
   position: absolute;
-  top: 1350px;
-  left:50%;
-  transform: translate(-50%,-50%);
+  top: 105%;
   text-align: center;
+  left: 260px;
+  right: 260px;
 }
+
 #lineavite {
   position: absolute;
-  top: 1530px;
-  width: 20%;
+  top: 134%;
+  width: 50%;
   transform: translate(-50%,0%);
   left: 50%;
   border-top: 1px solid black;
 }
 
-#cit{
+#vita1 {
   position: absolute;
-  background-color: black;
-  top:2145px;
-  left:50%;
-  width: 100%;
-  transform: translate(-50%,-50%);
-  height: 1060px;
-}
-
-.opacità{
-  position: absolute;
-  background-color: none;
-  top:2145px;
-  left:50%;
-  width: 100%;
-  transform: translate(-50%,-50%);
-  height: 1060px;
-}
-.opacità:hover{
-  position: absolute;
-  background-color: white;
-  opacity: 0.35;
-}
-
-#cit1{
-  font-family: 'Libre Baskerville';
-  font-size: 21px;
-  color: white;
-  line-height: 30px;
-  position: absolute;
-  top: 40px;
-  left:20%;
-}
-#cit2{
-  font-family: 'Libre Baskerville';
-  font-size: 21px;
-  color: white;
-  line-height: 30px;
-  position: absolute;
-  top: 260px;
-  right:20%;
-}
-#cit3{
-  font-family: 'Libre Baskerville';
-  font-size: 21px;
-  color: white;
-  line-height: 30px;
-  position: absolute;
-  top: 410px;
-  left:20%;
-}
-#cit4{
-  font-family: 'Libre Baskerville';
-  font-size: 21px;
-  line-height: 30px;
-  color: white;
-  position: absolute;
-  top: 590px;
-  right:25%;
-}
-#cit5{
-  font-family: 'Libre Baskerville';
-  font-size: 21px;
-  color: white;
-  line-height: 30px;
-  position: absolute;
-  top: 740px;
+  top: 1400px;
   left: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitamarta {
+  font-family:'Libre Baskerville';
+  position: absolute;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  top:1490px;
+  height: 40%;
+  width: 920px;
+  transform: translate(-50%,0%);
+  left: 50%;
+  font-size: 20px;
+  line-height: 29px;
+  text-align: justify;
+}
+
+#vita2 {
+  position: absolute;
+  top: 1650px;
+  right: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+.fracci {
+  position: absolute;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transform: translate(-50%,0%);
+  left: 50%;
+  top:1730px;
+  height: 40%;
+  width: 920px;
+  font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
+}
+
+#vita3 {
+  position: absolute;
+  top: 2030px;
+  left: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitarudolf {
+  position: absolute;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transform: translate(-50%,0%);
+  left: 50%;
+  top:2110px;
+  height: 40%;
+  width: 920px;
+  font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
+}
+
+#vita4 {
+  position: absolute;
+  top: 2620px;
+  right: 20%;
+  font-family: 'Dancing Script',cursive;
+  font-size: 40px;
+}
+
+#vitaroberto {
+  position: absolute;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transform: translate(-50%,0%);
+  left: 50%;
+  top:2700px;
+  height: 40%;
+  width: 920px;
+  font-size: 20px;
+  font-family: 'Libre Baskerville';
+  line-height: 29px;
+  text-align: justify;
 }

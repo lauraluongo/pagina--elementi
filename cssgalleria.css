@@ -41,6 +41,22 @@ a{
   color: white;
 }
 
+#history{
+  color: white;
+}
+.storia{
+  position:fixed;
+  font-family: 'Dancing Script',cursive;
+  src: url(Palace Script MT.eot);
+  src: local('Palace Script MT'), url('Palace Script MT.ttf') format('truetype');
+  color: white;
+  text-align:center;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 66.5%;
+}
+
 .contattaci {
   position:fixed;
   font-family: 'Dancing Script',cursive;
@@ -53,6 +69,7 @@ a{
   margin-top: 25px;
   margin-left: 72.5%;
 }
+
 
 .facebook {
   height: 28px;

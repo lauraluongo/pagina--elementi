@@ -1,0 +1,228 @@
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet"href="cssstoria.css">
+</head>
+
+<body>
+  <div class="barrasup">
+    <div class="home">
+      <a href="index.htm" class="linkhome">
+      Layla Land
+      </a>
+     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </div>
+
+    <div class="galleria">
+      <a href="galleria.html" class="linkgalleria">
+      Gallery
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    </a>
+    </div>
+
+    <a href="#collegamentocontatti"> <div class="contattaci">
+      Contattaci
+    </div> </a>
+    <div>
+      <a href="#collegamento1"> <img src="img/facebook1.png" class="facebook"> </a>
+    </div>
+    <div>
+      <a href="#collegamento2"> <img src="img/insta (2).png" class="instagram"> </a>
+    </div>
+    <div>
+      <a href="#collegamento3"> <img src="img/email.png" class="mail"> </a>
+    </div>
+  </div>
+
+  <div class="menustoria">
+     <p id="all"> Storia <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+     </p>
+  </div>
+
+  <div class="tendina">
+  <button class="bottstoria">I nomi della danza</button>
+  <div class="nomi">
+    <a href="#lineavite">Martha Graham </a>
+    <a href="#vita1">Carla Fracci </a>
+    <a href="#vita2">Rudolf  Nureyev </a>
+    <a href="#vita3">Roberto Bolle </a>
+  </div>
+  </div>
+
+  SLIDESHOW:
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+  <img src="img/martha.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+  <img src="img/carla.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+  <img src="img/rudolf.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+  <img src="img/roberto.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+  showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+  showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+  }
+
+  </script>
+
+  <div id="contenitorefotostoria">
+   <img src="img/martha11.jpg" class="r1 c1">
+   <img src="img/carla11.jpg" class="r1 c2">
+   <img src="img/rudolf11.jpg" class="r1 c3">
+   <img src="img/roberto11.jpg" class="r1 c4">
+
+  </div>
+
+
+  <p id="paragrafo1"> Martha Graham, Carla Fracci, Rudolf  Nureyev e Roberto Bolle sono quattro colossi della danza.
+  Ognuno ha avuto e ha ancora oggi un ruolo fondamentale all'interno della disciplina.
+  Alcuni di loro hanno portato a forti cambiameni, altri hanno creato un vero e proprio stile sulla base della propria personalità.
+  Tutti inoltre hanno cercato e cercano di diffondere la danza e la concezione che sta dietro ad essa ad un pubblico più ampio possibile,
+  in modo da farla piacere, apprezzare, e amare anche a chi è completamente distante da essa. </p>
+
+  <div id="lineavite"></div>
+
+
+  <h1 id="vita1"> Martha Graham <h1>
+
+  <div id="vitamarta">  Martha Graham è stata una danzatrice e coreografa statunitense.
+  Da molti è considerata la più grande danzatrice statunitense del XX secolo, nonché la "madre"
+  della danza moderna. Sostenitrice del "movimento" come massima forma di espressione, con le forme
+  angolari che riusciva ad assumere col suo minuto ma vibrante corpo sapeva comunicare le più profonde
+  emozioni dell'animo umano.
+  </div>
+
+  <h1 id="vita2"> Carla Fracci </h1>
+
+  <div class="fracci">
+  <p> Carla Fracci, regina di palcoscenici mondiali, nasce a Milano il 20 agosto 1936. Inizia a studiare danza classica alla Scuola
+  di danza del Teatro alla Scala di Milano nel 1946. Dopo il diploma, prosegue la sua formazione artistica partecipando a stage a Londra,
+  Parigi e New York. Nel 1958 diventa prima ballerina. Fino agli anni '70 danza con alcune compagnie straniere quali il Royal Ballet.
+  Dal 1967 è artista ospite dell'American Ballet Theatre.
+  Tra i grandi ballerini che sono stati suoi partner sul palcoscenico è presente il grande Rudolf Nureyev.
+  Tra le altre grandi interpretazioni di opere contemporanee ricordiamo "Romeo e Giulietta" di Prokofiev, "Coppelia", "Il lago dei cigni".
+  Alla fine degli anni '80 dirige il corpo di ballo del Teatro San Carlo di Napoli assieme a Gheorghe Iancu.
+  Carla Fracci è sicuramente una delle ballerine più brave e note che l'Italia abbia mai avuto.
+  </p>
+  </div>
+
+
+  <h1 id="vita3"> Rudolf Nureyev </h1>
+
+  <div id="vitarudolf">
+  <p> Rudolf Nureyev è nato il 17 marzo 1938 su un treno in una regione del lago di Baikal. All'età di undici anni comincia a prendere lezioni di danza da un'anziana insegnante, la signora Udeltsova, che aveva fatto parte dei leggendari "Ballets Russes" di Diaghilev.
+   Nel 1955 entra a far parte della prestigiosa scuola di ballo del Teatro Kirov di Leningrado e tre anni dopo è ammesso in compagnia.
+   Durante una tournée in Europa negli anni '60, durante il periodo della guerra fredda, chiese asilo politico alla Francia, per sfuggire all'oppressivo regime sovietico, alle sue imposizioni e gerarchie.
+   Il suo nome finisce su tutti i giornali, non sempre per i nobili motivi legati alla danza, ma per quelli più terreni della politica.
+   Comincia così la sua carriera in Occidente con la compagnia del Marchese di Cuevas, con il Balletto Reale Danese di Erik Bruhn e poi con il Royal Ballet di Londra dove fra l'altro instaura un celebre sodalizio con Margot Fonteyn, con la quale forma la mitica coppia destinata ad incantare il pubblico di tutti i teatri del mondo.
+   Nel corso della sua vita, Nureyev ha interpretato decine di ruoli, sia classici che moderni, sempre con enormi potenzialità tecniche e di immedesimazione.
+   Infine, non bisogna dimenticare che crearono per lui tutti i massimi geni della coreografia, fra i quali vanno annoverati Ashton, Roland Petit, Mac Millian, Bejart e Taylor.
+   Malato da tempo di Aids, il grande ballerino si è spento presso un ospedale parigino il 6 gennaio 1993 dopo l'ultima tormentata relazione con il cantante rock Freddie Mercury.
+   Rudolf Nureyev è il personaggio che ha rivoluzionato in assoluto il ruolo maschile nella danza.
+  </p>
+  </div>
+
+  <h1 id="vita4"> Roberto Bolle </h1>
+
+  <div id="vitaroberto">
+  <p> Roberto Bolle nasce il 26 marzo 1975 a Casale Monferrato, in provincia di Alessandria.
+   Fin da piccolo una passione irrefrenabile per la danza.
+   Incoraggiato dalla madre, a undici anni, va a Milano per sostenere l'audizione alla scuola del Teatro alla Scala che supererà in modo eccellente.
+   A quindci anni arriva il primo grande successo: Rudolf Nureyev che in questo periodo si trovava alla Scala lo notò e lo scelse per il ruolo di Tadzio in "Morte a Venezia" di Flemming Flindt.
+   Dal momento in cui venne nominato primo ballerino della compagnia di ballo della Scala, sarà protagonista dei più famosi balletti classici e contemporanei nei più celebri teatri del mondo.
+   Ebbe l'onore di ballare al cospetto di Putin al Bolshoi, della Regina Elisabetta al Buckingham Palace e di papa Giovanni Paolo II in Piazza San Pietro.
+   Per la stagione 2003/2004 viene riconosciuto a Roberto Bolle il titolo di Etoile del Teatro alla Scala.
+   Debutta al Metropolitan di New York a giugno del 2007 per l'addio alle scene americane di Alessandra Ferri.
+   Fra le sue numerose partner ricordiamo: Alessandra Ferri, Carla Fracci, Polina Semionova e Svetlana Zakharova.
+
+   Roberto Bolle è molto impegnato anche nel sociale: dal 1999 è "Ambasciatore di buona volontà" per l'UNICEF. Molto amato sia dal pubblico che dalla critica, è definito "L'orgoglio di Milano" e riceve importanti premi e riconoscimenti.
+   Nel 1999, riceve il Premio "Gino Tani" per aver contribuito con la sua attività a diffondere attraverso il linguaggio del corpo e dell'anima i valori della danza e del movimento.
+   Anche la tv italiana si accorge del grande valore di Roberto Bolle e della sua immagine tanto che viene richiesto come ospite in tantissime trasmissioni.
+   Inoltre compare su alcune famose riviste e diventa testimonial italiano per diversi noti marchi.
+
+   Tra le sue ultime iniziative ci sono il "Roberto Bolle & Friends" (un gala di danza straordinario a favore del FAI), "Danza con me" (un programma trasmesso sulla RAI, condotto dall' "Étoile dei due mondi" insieme a grandi ospiti internazionali, che porta la danza classica nella contemporaneità) e infine l'evento pubblico "On dance, accendiamo la danza" (un evento lungo una settimana, dall' 11 al 17 giugno 2018, che contamina tutta la città di Milano con spettacoli, workshop, eventi culturali e tante altre sorprese).
+   Roberto Bolle è l'orgoglio non solo della danza italiana ma dell'Italia intera.
+  </p>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+  showDivs(slideIndex += n);
+  }
+
+  function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+  }
+  </script>
+
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="java.js"></script>
+
+  </body>
+
+  <footer class="barrainf">
+  <div id="collegamentocontatti" class="finecontatti"> Contatti </div>
+  <div id="immaginifondo">
+    <div>
+      <a href="https://www.facebook.com/lluongo1">
+        <img src="img/facebookfondo.png" class="facebookfondo">
+      </a>
+      <a href="https://www.instagram.com/lauraluongoo/">
+        <img src="img/instafine.png" class="istafondo">
+      </a>
+    <img src="img/emailfondo.png" class="mailfondo">
+  </div>
+  <div id="collegamento1" class="fb"> Laura Luongo </div>
+  <div id="collegamento2" class="insta"> lauraluongoo </div>
+  <div id="collegamento3" class="email"> lauraluongoo@gmail.com </div>
+  </footer>
