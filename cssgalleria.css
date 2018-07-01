@@ -114,30 +114,23 @@ a{
 }
 
 
-
-
-.menugallery {
-  position: absolute;
-  top:30%;
-  align:center;
-  transform: translate(-50%,0%);
-  left: 50%;
-  height: 60px;
-  width: 957px;
-  border-bottom: 1px solid black;
-  margin-bottom: 20px;
-}
-
  #all {
    position: absolute;
    font-family:'Dancing Script';
    transform: translate(-50%,0%);
    left: 50%;
-   top: -120px;
+   top: 105px;
    text-align: center;
    font-size: 70px;
  }
-
+ .lineagalleria {
+   position: absolute;
+   top: 270px;
+   width: 20%;
+   transform: translate(-50%,0%);
+   left: 50%;
+   border-top: 1px solid black;
+ }
 
 
  #divenorme {
