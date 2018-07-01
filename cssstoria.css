@@ -229,7 +229,7 @@ color: white;
   position: absolute;
   width: 459px;
   height: 131px;
-  top:155%;
+  top:1140px;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -274,7 +274,7 @@ color: white;
 .tendina {
  display: block;
  position: absolute;
- top:175%;
+ top:1250px;
  left: 50%;
  transform: translate(-50%,-50%);
 }
@@ -307,7 +307,7 @@ color: white;
   width: 300px;
   position: absolute;
   margin: auto;
-  top:70%;
+  top:520px;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -367,7 +367,7 @@ color: white;
   font-family: 'Libre Baskerville';
   font-size: 21px;
   position: absolute;
-  top: 105%;
+  top: 760px;
   text-align: center;
   left: 260px;
   right: 260px;
@@ -375,7 +375,7 @@ color: white;
 
 #lineavite {
   position: absolute;
-  top: 134%;
+  top: 980px;
   width: 50%;
   transform: translate(-50%,0%);
   left: 50%;
