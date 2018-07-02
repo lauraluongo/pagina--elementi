@@ -114,12 +114,19 @@ color: white;
   margin-bottom: 20px;
 }
 
-
-#foto{
+#fotolaura{
   position: absolute;
   top:430px;
   left:50%;
   transform: translate(-50%,-50%);
+  border: 1px solid white;
+  width: 26.35%;
+  height: 250px;
+}
+#foto{
+  position: absolute;
+  top:0px;
+  left:0%;
 }
 
 .laura{
